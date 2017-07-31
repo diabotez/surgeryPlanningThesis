@@ -51,7 +51,10 @@ To use the app, enter the credentals for one of the available user types in the 
 
 # running command
     Linux
-        java -Djava.library.path=/usr/local/cplex/cplex/bin/x86-64_linux/:/usr/local/cplex/cplex/lib/x86-64_linux/ -jar surgeryPlanning.jar
+        use the following '.sh' file.
+        ```Shell
+        sh unix-operationPlanning.sh
+        ```
 
     Windows 
-        java -Djava.library.path="C:/Program Files/cplex/cplex/bin/x86-64_linux/";"C:/Program Files/cplex/cplex/lib/x86-64_linux/" -jar surgeryPlanning.jar
+        use the '.bat' file to run.
