@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[700, 500]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[700, 500]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="medicLabel" min="-2" pref="101" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="medicComboBox" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="coordinatorTeamNameLabel" max="32767" attributes="0"/>
+                          <Component id="coordinatorIDLabel" max="32767" attributes="0"/>
+                          <Component id="medicIDLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="medicDepartmentLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="medicFirstNameLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="medicLastNameLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="coordinatorLastNameLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="coordinatorFirstNameLabel" alignment="0" pref="193" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="removeDoctorButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="71" max="32767" attributes="0"/>
+                              <Component id="moveMedicButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="medicLastNameTextField" max="32767" attributes="0"/>
+                          <Component id="medicDepartmentTextField" max="32767" attributes="0"/>
+                          <Component id="medicFirstNameTextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="medicIDFormattedTextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="coordinatorIDFormattedTextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="coordinatorLastNameTextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="coordinatorFirstNameTextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="coordinatorTeamNameTextField" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="medicComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="medicLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="medicIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="medicIDFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="medicLastNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="medicLastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="medicFirstNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="medicFirstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="medicDepartmentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="medicDepartmentTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinatorIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordinatorIDFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinatorLastNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordinatorLastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinatorFirstNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordinatorFirstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinatorTeamNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordinatorTeamNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="removeDoctorButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="moveMedicButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="27" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="medicLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe9;dico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="medicComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="medicComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="medicLastNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido del m&#xe9;dico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="medicLastNameTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="medicFirstNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del m&#xe9;dico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="medicFirstNameTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="medicDepartmentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Departamento del m&#xe9;dico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="medicDepartmentTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="medicIDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID del m&#xe9;dico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="medicIDFormattedTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#0" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordinatorIDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID del coordinador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="coordinatorIDFormattedTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#0" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordinatorFirstNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del coordinador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordinatorLastNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido del coordinador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinatorLastNameTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinatorFirstNameTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="removeDoctorButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Borrar este m&#xe9;dico"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="removeDoctorButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="moveMedicButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mover este m&#xe9;dico en otro equipo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="moveMedicButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordinatorTeamNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Equip&#xf3; del coordinador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinatorTeamNameTextField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

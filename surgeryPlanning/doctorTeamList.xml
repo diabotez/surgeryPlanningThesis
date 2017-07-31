@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doctorList>
+    <coordinator coordinatorID="1" id="1" teamName="medical team">
+        <lastName>Bromberg</lastName>
+        <firstName>Emilee</firstName>
+        <department>department</department>
+    </coordinator>
+    <doctor coordinatorID="1" id="2">
+        <lastName>Rinaldo</lastName>
+        <firstName>Neomi</firstName>
+        <department>department</department>
+    </doctor>
+    <doctor coordinatorID="1" id="3">
+        <lastName>Gandeee</lastName>
+        <firstName>Jona</firstName>
+        <department>department</department>
+    </doctor>
+    <coordinator coordinatorID="4" id="4" teamName="ghdtxgrds">
+        <lastName>Therrien</lastName>
+        <firstName>Hester</firstName>
+        <department>department</department>
+    </coordinator>
+    <doctor coordinatorID="4" id="5">
+        <lastName>Keister</lastName>
+        <firstName>Ami</firstName>
+        <department>department</department>
+    </doctor>
+    <doctor coordinatorID="4" id="6">
+        <lastName>Schexnayder</lastName>
+        <firstName>Gennie</firstName>
+        <department>department</department>
+    </doctor>
+    <doctor coordinatorID="4" id="7">
+        <lastName>Ruggieri</lastName>
+        <firstName>Syble</firstName>
+        <department>department</department>
+    </doctor>
+    <coordinator coordinatorID="8" id="8" teamName="ressger">
+        <lastName>Vandermark</lastName>
+        <firstName>Izola</firstName>
+        <department>department</department>
+    </coordinator>
+    <doctor coordinatorID="8" id="9">
+        <lastName>Dedrick</lastName>
+        <firstName>Hannelore</firstName>
+        <department>department</department>
+    </doctor>
+    <doctor coordinatorID="8" id="10">
+        <lastName>Vandam</lastName>
+        <firstName>Lurlene</firstName>
+        <department>department</department>
+    </doctor>
+    <doctor coordinatorID="8" id="11">
+        <lastName>Maguire</lastName>
+        <firstName>Karey</firstName>
+        <department>department</department>
+    </doctor>
+    <coordinator coordinatorID="12" id="12" teamName="drthyhftyh">
+        <lastName>Mangold</lastName>
+        <firstName>Jamey</firstName>
+        <department>department</department>
+    </coordinator>
+    <doctor coordinatorID="12" id="13">
+        <lastName>Launius</lastName>
+        <firstName>Tilda</firstName>
+        <department>department</department>
+    </doctor>
+    <doctor coordinatorID="12" id="14">
+        <lastName>Burnes</lastName>
+        <firstName>Alde</firstName>
+        <department>department</department>
+    </doctor>
+    <doctor coordinatorID="12" id="15">
+        <lastName>Escalante</lastName>
+        <firstName>Treena</firstName>
+        <department>department</department>
+    </doctor>
+    <coordinator coordinatorID="16" id="16" teamName="lifthjiortit">
+        <lastName>Hunton</lastName>
+        <firstName>Golda</firstName>
+        <department>department</department>
+    </coordinator>
+    <doctor coordinatorID="16" id="17">
+        <lastName>Shumate</lastName>
+        <firstName>Nubia</firstName>
+        <department>department</department>
+    </doctor>
+</doctorList>

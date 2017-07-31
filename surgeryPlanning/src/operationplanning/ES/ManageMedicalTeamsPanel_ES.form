@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="changeMedicalLeadButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                              <Component id="addNewMedicButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="addNewTeamCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="113" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="coordinatorLastNameLabel" max="32767" attributes="0"/>
+                          <Component id="teamNameLabel" max="32767" attributes="0"/>
+                          <Component id="coordinatorDepartmentLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="coordinatorFirstNameLabel" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="coordinatorFirstNameTextField" max="32767" attributes="0"/>
+                          <Component id="coordinatorDepartmentTextField" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="resetButton" min="-2" pref="91" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="AddNewTeamButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="teamNameTextField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="coordinatorLastNameTextField" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="addNewMedicButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="changeMedicalLeadButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="addNewTeamCheckBox" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinatorLastNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordinatorLastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinatorFirstNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordinatorFirstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinatorDepartmentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordinatorDepartmentTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="teamNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="teamNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AddNewTeamButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="resetButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="AddNewTeamButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A&#xf1;adir nuevo equipo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddNewTeamButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordinatorLastNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido del coordinador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordinatorFirstNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del coordinador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordinatorDepartmentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Departamento de coordinador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinatorLastNameTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinatorFirstNameTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinatorDepartmentTextField">
+    </Component>
+    <Component class="javax.swing.JButton" name="resetButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reiniciar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="changeMedicalLeadButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cambiar un coordinador de equipo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="changeMedicalLeadButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="addNewMedicButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Agregar nuevo m&#xe9;dico al equipo existente"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addNewMedicButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="addNewTeamCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A&#xf1;adir nuevo equipo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addNewTeamCheckBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="teamNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre de nuevo equipo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="teamNameTextField">
+    </Component>
+  </SubComponents>
+</Form>

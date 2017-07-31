@@ -1,0 +1,3 @@
+note:
+
+You should said in the memory that the MIQCP and MIQCPP has been developed at university of Zaragoza... and that currently there is a journal paper in review the procces.

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="surgeryPlanning.jnlp">
+  <information>
+    <title>surgeryPlanning</title>
+    <vendor>Diana Botez</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path=/usr/local/cplex/cplex/bin/x86-64_linux/:/usr/local/cplex/cplex/lib/x86-64_linux/ "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/cplex.jar" size="504817" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.42-bin.jar" size="996444" download="eager" />
+    <jar href="lib/oplall.jar" size="1389109" download="eager" />
+    <jar href="lib/swing-layout-1.0.4.jar" size="117420" download="eager" />
+    <jar href="lib/swingx-0.9.4.jar" size="1220130" download="eager" />
+    <jar href="surgeryPlanning.jar" size="4152861" download="eager" />
+  </resources>
+  <application-desc main-class="operationplanning.mainFiles.OperationPlanningMainClass"  name="surgeryPlanning" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>

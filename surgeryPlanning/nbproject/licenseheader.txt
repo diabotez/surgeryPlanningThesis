@@ -1,0 +1,18 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright (C) ${date?date?string("yyyy")} ${project.organization!user} - All Rights Reserved
+${licensePrefix?replace(" +$", "", "r")}
+${licensePrefix}
+${licensePrefix}DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+${licensePrefix}Althering the content of this licence under any circumstances is
+${licensePrefix}strictly forbidden.
+${licensePrefix}This application is part of a project developed during ERASMUS+ mobility
+${licensePrefix}at University of Zaragoza, Spain.
+${licensePrefix}This application is open-source and is distributed WITHOUT ANY WARRANTY;
+${licensePrefix}without even the implied warranty of MERCHANTABILITY or
+${licensePrefix}FITNESS FOR A PARTICULAR PURPOSE. 
+${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>

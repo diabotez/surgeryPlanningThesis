@@ -1,0 +1,42 @@
+This project has a welcome interface in both English and Spanish.
+
+The user is asked to select the language from the two buttons in the upper part of the window 
+("Bienvenido!" - for using Spanish language for the rest of the sesion or "Welcome!" - for using English 
+for the rest of the session). 
+
+After the credentials are checked this window will not be visible anymore and the one coresponding with the language previously selected will be now visible. The user is not allowed to change the language during the sesion. To do so, it has to close the sesion and reopen another one.
+
+
+The app has 6 main pannels. 
+    * The first one is about the "medical teams". This tab offers edditable options only to admin users. The standard users can only see the informations from this tab.
+        - Here, the admin user can see all the teams (each one it's own pannel), change the name of the team or delete it from the data base - only if there are no doctors in this team anymore.
+        - There can also be added new teams. In order to do so, the new team has to have a coordinator and a member. After the new team is creater, new doctors can be added to the team or other doctors can be transfered to this team.
+        - "See medic list" is the tab where a new doctor can be added to an existing team and into the data base, the selected doctor can also be removed from the team and from the data base - his current patients will be transfered to his coordinator. Furthermore, this tab also gives the possibility to move the selected doctor to another team, change the medical leader of a team with another doctor from the same team (OBS! if the leader to be changed is in another team, then this doctor needs to be moved first in the team to which he will be the coodinator and than change the coordinator).
+        
+    * "Patients" tab gives informations about one or all patients. It is not restricted only to admin or standard users.
+        - "See patient list" offers the possibility to see all the patients from the data base - that are not scheduled or are scheduled but the surgery was not completed yet - , or only for a certain medical team or doctor.
+            It will also be available a table with the details of the selected patient. What surgeries he has/had, if they were scheduled (and when) and completed.
+        - "Add/Update patients" offers the possibility to see a certain patient (searched after ID - for the moment)
+            It will be available to add a new surgery to the patient or add the new patient with his surgery in the data base.
+            --tab under construction--
+        - "Add list of patients" offers the possibility to add a new list of patients that is constructed under a certain template of a XML file
+    
+    * "Surgeries" tab gives the possibility to see all the current surrgeries with their avverage time and standard deviation.
+        - Here, the admin user can add a new surgery with default average time and standard deviation and a defaul pathology to which it is performed (for the moment, it has to be a new pathology).
+        - The admin user can also updates the informations of a surgery or remove it from the data base
+    
+    * "OR timetable" tab offers the onformations about the current available operating rooms. All the users can see these informations, but only the admin can edit them
+        - For the current selected OR, the admin user can add a new timetable and the team that will have that OR for a certain day.
+        - The admin user can also delete the current operating room from the data base or add another one (morning or afternoon)
+    
+    * "Schedule" tab offers the possibility to schedule a certain list of patients. It is also neccessary to introduce the number of days to schedule, the desired occupation rate and the percentage of the accepted deviation from that desired occupation rate.
+        - The result will show the time (in minutes) of each scheduled day and the occupation rate in percentage. Also, it will show the ID of the scheduled patients for each day.
+        - After the scheduling is done, the patients will appear as "scheduled" in the "Patients" tab.
+    
+    * "Details of performed surgeries" tab is under construction. It will have the possibility to add the details about a performed surgery, like actual time and the doctor that made the surgery.
+    
+
+
+When the sesion is closed, the current user will be logged off and the changes will be saved in the data base (if they haven't bben saved already).
+
+

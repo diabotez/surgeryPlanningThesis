@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<operationRooms>
+    <OR id="1">
+        <date year="2017" month="2" day="22"></date>
+        <start>8:15</start>
+        <end>14:35</end>
+        <coordinatorID>1</coordinatorID>
+    </OR>
+    <OR id="1">
+        <date year="2017" month="2" day="21"></date>
+        <start>8:15</start>
+        <end>14:35</end>
+        <coordinatorID>1</coordinatorID>
+    </OR>
+    <OR id="1">
+        <date year="2017" month="2" day="20"></date>
+        <start>8:15</start>
+        <end>14:35</end>
+        <coordinatorID>1</coordinatorID>
+    </OR>
+    <OR id="1">
+        <date year="2017" month="2" day="23"></date>
+        <start>8:15</start>
+        <end>14:35</end>
+        <coordinatorID>4</coordinatorID>
+    </OR>
+    <OR id="1">
+        <date year="2017" month="2" day="24"></date>
+        <start>8:15</start>
+        <end>14:35</end>
+        <coordinatorID>4</coordinatorID>
+    </OR>
+    <OR id="1">
+        <date year="2017" month="2" day="25"></date>
+        <start>8:15</start>
+        <end>14:35</end>
+        <coordinatorID>4</coordinatorID>
+    </OR>
+    <OR id="2">
+        <date year="2017" month="1" day="15"></date>
+        <start>8:25</start>
+        <end>14:45</end>
+        <coordinatorID>8</coordinatorID>
+    </OR>
+    <OR id="2">
+        <date year="2017" month="1" day="16"></date>
+        <start>8:25</start>
+        <end>14:45</end>
+        <coordinatorID>8</coordinatorID>
+    </OR>
+    <OR id="2">
+        <date year="2017" month="1" day="17"></date>
+        <start>8:25</start>
+        <end>14:45</end>
+        <coordinatorID>8</coordinatorID>
+    </OR>
+    <OR id="3">
+        <date year="2017" month="2" day="25"></date>
+        <start>8:35</start>
+        <end>14:55</end>
+        <coordinatorID>12</coordinatorID>
+    </OR>
+    <OR id="4" isMorningRoom="0">
+        <date year="2017" month="3" day="25"></date>
+        <start>15:45</start>
+        <end>19:15</end>
+        <coordinatorID>16</coordinatorID>
+    </OR>
+</operationRooms>
