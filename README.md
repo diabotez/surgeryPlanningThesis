@@ -50,11 +50,11 @@ To use the app, enter the credentals for one of the available user types in the 
         install regarding personal preferences
 
 # running command
-    Linux
+    Linux OS:
         use the following '.sh' file.
         ```Shell
         sh unix-operationPlanning.sh
         ```
 
-    Windows 
+    Windows OS:
         use the '.bat' file to run.
