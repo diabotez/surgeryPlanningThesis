@@ -52,7 +52,7 @@ To use the app, enter the credentals for one of the available user types in the 
 # running command
     Linux OS:
         use the following '.sh' file.
-        ```Shell
+        ```
         sh unix-operationPlanning.sh
         ```
 
